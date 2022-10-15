@@ -1,0 +1,228 @@
+/* costom css  */
+img {
+    max-width: 100%;
+}
+
+.sec-bg {
+    background-color: #f9f9ff;
+
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header css start  */
+.header-menu {
+	position: sticky;
+	top: 0;
+	background: #fff;
+    z-index: 999;
+}
+
+.header-menu .menu {
+    text-align: right;
+}
+.header-menu .menu ul {
+    display: inline-block;
+    margin: 0;
+    line-height: 39px;
+}
+.header-menu .menu ul li {
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+}
+.header-menu .menu ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #767676;
+}
+.header-menu .menu ul li:hover>a{
+    color: #000000;
+}
+.header-menu .menu ul li:first-child a.active {
+    color: #000;
+}
+/* dropdown css */
+.header-menu .menu ul li ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	margin-top: -6px;
+	background: #dddd;
+	text-align: center;
+	padding: 0;
+	width: 115px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    transform: scaleY(0);
+    transform-origin: top;
+    z-index: 1;
+}
+.header-menu .menu ul li ul li {
+	margin-right: 0;
+	border-bottom: 1px solid #fff;
+	display: block;
+
+}
+.header-menu .menu ul li ul li a {
+    display: block;
+    padding: 5px;
+}
+.header-menu .menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+/* header css End */
+/* banner css start */
+.banner-wrap {
+	margin-top: 150px;
+}
+.banner-wrap p{
+    color: #555555;
+}
+.banner-wrap button {
+	background: #8490FF;
+	border: transparent;
+    font-weight: 600;
+}
+/* banner css End */
+
+/* about css start */
+
+.about-wrap .about-text{
+    margin-top: 70px;
+}
+.about-wrap .about-text button{
+	background: #8490FF;
+	border: transparent;
+    font-weight: 600;
+}
+
+/* about css end */
+
+/* follower css start */
+.follow{
+    background: #8490FF;
+}
+.follow h2{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 13px;
+}
+/* follower css end */
+
+/* Pricing css start */
+
+.pricing-part .pri-card h2{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    background: #F1F1FC;
+    line-height: 150px;
+    border-radius: 50%;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.pricing-part .pri-card h4{
+    color: #555;
+    margin-bottom: 20px;
+}
+.default-shadow{
+    box-shadow: 0px 0px 20px -2px #c5c5f4;
+    border: none;
+    margin-bottom: 25px;
+}
+.pricing-part .pri-card a {
+	display: block;
+	width: 170px;
+	margin: auto;
+	box-shadow: 0px 0px 30px -2px #c5c5f4;
+	color: #2E45FF;
+	padding: 15px;
+	font-size: 23px;
+	border: 2px solid #8391FF;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 30px;
+
+}
+.pricing-part .pri-card a:hover{
+    color: #fff;
+    background: #8391FF;
+}
+/* Pricing css end */
+/* blog css start */
+.blog {
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+.blog .card {
+	margin-bottom: 20px;
+	box-shadow: 0px 8px 22px 4px #dbdbdb;
+    border: none;
+}
+
+.blog .card figure {
+	margin-top: -67px;
+	margin-left: -155px;
+	margin-bottom: 25px;
+}
+.blog .card figure img{
+    width: 100px;
+}
+.blog .card-body a{
+    display: inline-block;
+	box-shadow: 0px 5px 30px -2px #afafaf;
+    color: #000;
+	padding: 12px 20px;
+	font-size: 23px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+/* blog css End */
+
+/* contact css start */
+.contact .contact-header h4{
+    font-size: 20px;
+}
+.contact .contact-header h2{
+    font-size: 35px;
+}
+.contact .card{
+    box-shadow: 0px 0px 30px -2px #c5c5f4;
+    border: none;
+}
+.contact .card-body button{
+    display: inline-block;
+    text-align: center;
+    background: #17A2B8;
+    color: #ffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.contact h4{
+    margin-bottom: 20px;
+    color: rgb(70, 70, 70);
+}
+/* contact css end */
